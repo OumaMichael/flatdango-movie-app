@@ -1,0 +1,156 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "The Giant Gila Monster",
+      "runtime": 108,
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 30,
+      "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Manos: The Hands Of Fate",
+      "runtime": 118,
+      "capacity": 50,
+      "showtime": "06:45PM",
+      "tickets_sold": 50,
+      "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Plan 9 From Outer Space",
+      "runtime": 79,
+      "capacity": 40,
+      "showtime": "09:30PM",
+      "tickets_sold": 40,
+      "description": "Aliens resurrect dead humans as zombies and vampires to stop humanity from creating the Solaranite (a sort of sun-driven bomb).",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2158/p2158_v_v8_aa.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Room",
+      "runtime": 99,
+      "capacity": 60,
+      "showtime": "12:15AM",
+      "tickets_sold": 60,
+      "description": "Johnny is a successful banker who lives happily in a San Francisco townhouse with his fiancée, Lisa. One day, inexplicably, she gets bored with him and decides to seduce his best friend, Mark.",
+      "poster": "https://md.goojara.to/20225111.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Birdemic: Shock And Terror",
+      "runtime": 105,
+      "capacity": 45,
+      "showtime": "05:30AM",
+      "tickets_sold": 43,
+      "description": "A horde of mutated birds descends upon the quiet town of Half Moon Bay, California.",
+      "poster": "https://md.goojara.to/10230265.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Santa Claus Conquers The Martians",
+      "runtime": 81,
+      "capacity": 55,
+      "showtime": "08:15AM",
+      "tickets_sold": 55,
+      "description": "The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents.",
+      "poster": "https://md.goojara.to/10230260.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Happening",
+      "runtime": 91,
+      "capacity": 65,
+      "showtime": "11:00AM",
+      "tickets_sold": 61,
+      "description": "A science teacher, his wife, and a young girl struggle to survive a natural disaster.",
+      "poster": "https://md.goojara.to/10230053.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Cat in the Hat",
+      "runtime": 82,
+      "capacity": 50,
+      "showtime": "03:30PM",
+      "tickets_sold": 40,
+      "description": "Two bored children have their lives turned upside down when a talking cat comes to visit them.",
+      "poster": "https://md.goojara.to/10230349.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Mega Shark vs. Giant Octopus",
+      "runtime": 92,
+      "capacity": 60,
+      "showtime": "09:45PM",
+      "tickets_sold": 50,
+      "description": "A prehistoric shark and octopus clash in an epic battle, threatening humanity's survival.",
+      "poster": "https://md.goojara.to/10230152.jpg"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "80f3",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "a96e",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "60f1",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "92c5",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "c388",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "b06d",
+      "film_id": "2",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "bb4c",
+      "film_id": "10",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "20fc",
+      "film_id": "10",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "5db5",
+      "film_id": "8",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "1a89",
+      "film_id": "6",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "8bff",
+      "film_id": "6",
+      "number_of_tickets": 1
+    },
+    {
+      "id": "a20f",
+      "film_id": "6",
+      "number_of_tickets": 1
+    }
+  ]
+}

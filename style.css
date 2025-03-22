@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    font-size: 1.5rem; /* Increased base font size for readability */
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 1.0rem; /* Larger header text */
+  }
+  
+  /* Search Input Styles */
+  #search-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem; /* Larger input text */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem; /* Increased table text size */
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Image in table */
+  img {
+    max-width: 100px;
+    border-radius: 5px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem; /* Larger button text */
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Delete button */
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+}
+
+/* Disabled button (sold out) */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+/* Sold out row */
+.sold-out {
+    opacity: 0.7;
+    background-color: #f9f9f9;
+}
+
+/* Highlight on hover */
+.highlight {
+    background-color: #f0f7ff;
+    transition: background-color 0.2s ease;
+}
+/* Available tickets text */
+#films-table span {
+    display: block;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: #01b4e4;
+}
+
+/* Description text */
+#films-table p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #films-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    #films-table th:nth-child(1),
+    #films-table td:nth-child(1),
+    #films-table th:nth-child(2),
+    #films-table td:nth-child(2),
+    #films-table th:nth-child(3),
+    #films-table td:nth-child(3) {
+        width: auto;
+    }
+}
+
+/* Disabled button (sold out) */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+/* Sold out row */
+.sold-out {
+    opacity: 0.7;
+    background-color: #f9f9f9;
+}
+
+/* Highlight on hover */
+.highlight {
+    background-color: #f0f7ff;
+    transition: background-color 0.2s ease;
+}
+/* Button styling */
+button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+button:hover:not([disabled]) {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Buy Ticket button */
+#films-table td button:not(.delete-btn) {
+    background-color: #90cea1;
+    color: #0d253f;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+}
